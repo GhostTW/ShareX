@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtJiraConfigHelp.Text" xml:space="preserve">
+    <value>範本</value>
+  </data>
+  <data name="tpURLShorteners.Text" xml:space="preserve">
+    <value>URL 分享</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ShareX - 目的地設定</value>
+  </data>
+  <data name="btnBoxRefreshFolders.Text" xml:space="preserve">
+    <value>重新整理資料夾列表</value>
+  </data>
+  <data name="btnCustomUploaderAdd.Text" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="btnCustomUploaderArgAdd.Text" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="btnCustomUploaderArgEdit.Text" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="btnCustomUploaderArgRemove.Text" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="btnCustomUploaderClear.Text" xml:space="preserve">
+    <value>清除全部 --&gt;</value>
+  </data>
+  <data name="btnCustomUploaderExamples.Text" xml:space="preserve">
+    <value>範例...</value>
+  </data>
+  <data name="btnCustomUploaderFileUploaderTest.Text" xml:space="preserve">
+    <value>測試</value>
+  </data>
+  <data name="btnCustomUploaderHelp.Text" xml:space="preserve">
+    <value>說明...</value>
+  </data>
+  <data name="btnCustomUploaderImageUploaderTest.Text" xml:space="preserve">
+    <value>測試</value>
+  </data>
+  <data name="btnCustomUploaderRegexpAdd.Text" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="btnCustomUploaderRegexpEdit.Text" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="btnCustomUploaderRegexpRemove.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="btnCustomUploaderRemove.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="btnCustomUploaderShowLastResponse.Text" xml:space="preserve">
+    <value>顯示最後回應...</value>
+  </data>
+  <data name="btnCustomUploaderTextUploaderTest.Text" xml:space="preserve">
+    <value>測試</value>
+  </data>
+  <data name="btnCustomUploaderUpdate.Text" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="btnCustomUploaderURLShortenerTest.Text" xml:space="preserve">
+    <value>測試</value>
+  </data>
+  <data name="btnDropboxShowFiles.Text" xml:space="preserve">
+    <value>選擇...</value>
+  </data>
+  <data name="btnFlickrCheckToken.Text" xml:space="preserve">
+    <value>更新授權</value>
+  </data>
+  <data name="btnFlickrCompleteAuth.Text" xml:space="preserve">
+    <value>第二步：完成授權</value>
+  </data>
+  <data name="btnFlickrOpenAuthorize.Text" xml:space="preserve">
+    <value>第一步：開啟授權頁面</value>
+  </data>
+  <data name="btnFlickrOpenImages.Text" xml:space="preserve">
+    <value>你的照片串流</value>
+  </data>
+  <data name="btnFtpClient.Text" xml:space="preserve">
+    <value>客戶端...</value>
+  </data>
+  <data name="btnGe_ttLogin.Text" xml:space="preserve">
+    <value>登錄</value>
+  </data>
+  <data name="btnGoogleDriveRefreshFolders.Text" xml:space="preserve">
+    <value>更新資料夾列表</value>
+  </data>
+  <data name="btnHubicRefreshFolders.Text" xml:space="preserve">
+    <value>更新資料夾列表</value>
+  </data>
+  <data name="btnImageShackLogin.Text" xml:space="preserve">
+    <value>登錄</value>
+  </data>
+  <data name="btnImageShackOpenMyImages.Text" xml:space="preserve">
+    <value>開啟我的圖片頁面</value>
+  </data>
+  <data name="btnImageShackOpenPublicProfile.Text" xml:space="preserve">
+    <value>開啟公開個人頁面</value>
+  </data>
+  <data name="btnImgurRefreshAlbumList.Text" xml:space="preserve">
+    <value>更新相簿列表</value>
+  </data>
+  <data name="btnMegaLogin.Text" xml:space="preserve">
+    <value>登錄</value>
+  </data>
+  <data name="btnMegaRefreshFolders.Text" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="btnMegaRegister.Text" xml:space="preserve">
+    <value>註冊...</value>
+  </data>
+  <data name="btnMinusAuth.Text" xml:space="preserve">
+    <value>授權</value>
+  </data>
+  <data name="btnMinusFolderAdd.Text" xml:space="preserve">
+    <value>新增資料夾</value>
+  </data>
+  <data name="btnMinusFolderRemove.Text" xml:space="preserve">
+    <value>刪除資料夾</value>
+  </data>
+  <data name="btnMinusReadFolderList.Text" xml:space="preserve">
+    <value>更新資料夾列表</value>
+  </data>
+  <data name="btnMinusRefreshAuth.Text" xml:space="preserve">
+    <value>更新授權</value>
+  </data>
+  <data name="btnPastebinLogin.Text" xml:space="preserve">
+    <value>登錄</value>
+  </data>
+  <data name="btnPastebinRegister.Text" xml:space="preserve">
+    <value>註冊...</value>
+  </data>
+  <data name="btnPhotobucketAddAlbum.Text" xml:space="preserve">
+    <value>新增相簿</value>
+  </data>
+  <data name="btnPhotobucketAuthComplete.Text" xml:space="preserve">
+    <value>第二步：完成授權</value>
+  </data>
+  <data name="btnPhotobucketAuthOpen.Text" xml:space="preserve">
+    <value>第一名：開啟授權頁面...</value>
+  </data>
+  <data name="btnPhotobucketCreateAlbum.Text" xml:space="preserve">
+    <value>建立相簿</value>
+  </data>
+  <data name="btnPhotobucketRemoveAlbum.Text" xml:space="preserve">
+    <value>移除相簿</value>
+  </data>
+  <data name="btnPicasaRefreshAlbumList.Text" xml:space="preserve">
+    <value>更新相簿列表</value>
+  </data>
+  <data name="btnPushbulletGetDeviceList.Text" xml:space="preserve">
+    <value>取得設備列表</value>
+  </data>
+  <data name="btnSendSpaceRegister.Text" xml:space="preserve">
+    <value>&amp;註冊...</value>
+  </data>
+  <data name="btnTinyPicLogin.Text" xml:space="preserve">
+    <value>登錄</value>
+  </data>
+  <data name="btnTinyPicOpenMyImages.Text" xml:space="preserve">
+    <value>開啟我的圖片頁面...</value>
+  </data>
+  <data name="btnTwitterLogin.Text" xml:space="preserve">
+    <value>登錄</value>
+  </data>
+  <data name="cbAmazonS3CustomCNAME.Text" xml:space="preserve">
+    <value>使用自定義域：</value>
+  </data>
+  <data name="cbAmazonS3CustomCNAME.ToolTip" xml:space="preserve">
+    <value>使用此選項時假如你有一個 bucket 設定與自定義網域。
+如果欄位為空 bucket 名稱將會使用在 URL 上。
+舉例來說如果你的 bucket 為 bucket.example.com 則 URL 會是 http://bucket.example.com/...</value>
+  </data>
+  <data name="cbAmazonS3UseRRS.Text" xml:space="preserve">
+    <value>使用 reduced redundancy storage</value>
+  </data>
+  <data name="tpTextUploaders.Text" xml:space="preserve">
+    <value>文字上傳空間</value>
+  </data>
+  <data name="tpSharedFolder.Text" xml:space="preserve">
+    <value>共享資料夾</value>
+  </data>
+  <data name="tpOtherUploaders.Text" xml:space="preserve">
+    <value>其他上傳空間</value>
+  </data>
+  <data name="tpImageUploaders.Text" xml:space="preserve">
+    <value>圖片上傳空間</value>
+  </data>
+  <data name="tpFileUploaders.Text" xml:space="preserve">
+    <value>檔案上傳空間</value>
+  </data>
+  <data name="tpEmail.Text" xml:space="preserve">
+    <value>電子信箱</value>
+  </data>
+  <data name="tpCustomUploaders.Text" xml:space="preserve">
+    <value>自定義上傳空間</value>
+  </data>
+  <data name="llAdflyLink.Text" xml:space="preserve">
+    <value>你可以在此找到你的 API 鑰匙與 UID</value>
+  </data>
+  <data name="lblYourlsUsername.Text" xml:space="preserve">
+    <value>使用者名稱：</value>
+  </data>
+  <data name="lblYourlsSignature.Text" xml:space="preserve">
+    <value>簽章：</value>
+  </data>
+  <data name="lblYourlsPassword.Text" xml:space="preserve">
+    <value>密碼：</value>
+  </data>
+  <data name="lblYourlsNote.Text" xml:space="preserve">
+    <value>注意：如果你有簽章則不需要使用者名稱及密碼。</value>
+  </data>
+  <data name="lblLocalhostrEmail.Text" xml:space="preserve">
+    <value>電子信箱：</value>
+  </data>
+  <data name="lblLocalhostrPassword.Text" xml:space="preserve">
+    <value>密碼：</value>
+  </data>
+  <data name="lblMediaFireEmail.Text" xml:space="preserve">
+    <value>電子信箱：</value>
+  </data>
+  <data name="lblMediaFirePassword.Text" xml:space="preserve">
+    <value>密碼：</value>
+  </data>
+  <data name="lblMediaFirePath.Text" xml:space="preserve">
+    <value>上傳路徑：</value>
+  </data>
+  <data name="lblMegaEmail.Text" xml:space="preserve">
+    <value>電子信箱：</value>
+  </data>
+  <data name="lblMegaFolder.Text" xml:space="preserve">
+    <value>資料夾：</value>
+  </data>
+  <data name="lblMegaPassword.Text" xml:space="preserve">
+    <value>密碼：</value>
+  </data>
+  <data name="lblMegaStatus.Text" xml:space="preserve">
+    <value>設定／未設定</value>
+  </data>
+  <data name="lblMegaStatusTitle.Text" xml:space="preserve">
+    <value>狀態：</value>
+  </data>
+  <data name="lblMinusAuthStatus.Text" xml:space="preserve">
+    <value>登錄狀態：</value>
+  </data>
+  <data name="lblMinusPassword.Text" xml:space="preserve">
+    <value>密碼：</value>
+  </data>
+  <data name="lblMinusURLType.Text" xml:space="preserve">
+    <value>URL 類型：</value>
+  </data>
+  <data name="lblMinusUsername.Text" xml:space="preserve">
+    <value>使用者名稱：</value>
+  </data>
+  <data name="lblOneDriveFolderID.Text" xml:space="preserve">
+    <value>選取的資料夾：</value>
+  </data>
+  <data name="lblOwnCloudHost.Text" xml:space="preserve">
+    <value>Host：</value>
+  </data>
+  <data name="lblOwnCloudPassword.Text" xml:space="preserve">
+    <value>密碼：</value>
+  </data>
+  <data name="lblOwnCloudPath.Text" xml:space="preserve">
+    <value>路徑：</value>
+  </data>
+  <data name="lblOwnCloudUsername.Text" xml:space="preserve">
+    <value>使用者名稱：</value>
+  </data>
+  <data name="lblPaste_eeUserAPIKey.Text" xml:space="preserve">
+    <value>使用者 API Key：</value>
+  </data>
+  <data name="lblPastebinExpiration.Text" xml:space="preserve">
+    <value>有效期限：</value>
+  </data>
+  <data name="lblPastebinLoginStatus.Text" xml:space="preserve">
+    <value>狀態：</value>
+  </data>
+  <data name="lblPastebinPassword.Text" xml:space="preserve">
+    <value>密碼：</value>
+  </data>
+  <data name="lblPastebinPrivacy.Text" xml:space="preserve">
+    <value>隱私：</value>
+  </data>
+  <data name="lblPastebinSyntax.Text" xml:space="preserve">
+    <value>貼上語法：</value>
+  </data>
+  <data name="lblPastebinTitle.Text" xml:space="preserve">
+    <value>貼上標題：</value>
+  </data>
+  <data name="lblPastebinUsername.Text" xml:space="preserve">
+    <value>使用者名稱：</value>
+  </data>
+  <data name="lblPhotobucketAccountStatus.Text" xml:space="preserve">
+    <value>需要登錄。</value>
+  </data>
+  <data name="lblPhotobucketDefaultAlbumName.Text" xml:space="preserve">
+    <value>預設相簿名稱</value>
+  </data>
+  <data name="lblPhotobucketNewAlbumName.Text" xml:space="preserve">
+    <value>新相簿名稱（必需在 2 到 50 內有效字元，可以為字母、數字、下底限（_）、連字符（-）和空白）</value>
+  </data>
+  <data name="lblPhotobucketParentAlbumPath.Text" xml:space="preserve">
+    <value>根相簿路徑</value>
+  </data>
+  <data name="lblPhotobucketVerificationCode.Text" xml:space="preserve">
+    <value>驗證碼（由授權頁面取得）</value>
+  </data>
+  <data name="lblPicasaAlbumID.Text" xml:space="preserve">
+    <value>相簿 ID 上傳（空=無相簿上傳）</value>
+  </data>
+  <data name="lblPushbulletDevices.Text" xml:space="preserve">
+    <value>設備：</value>
+  </data>
+  <data name="lblPushbulletUserKey.Text" xml:space="preserve">
+    <value>使用者 API Key：</value>
+  </data>
+  <data name="lblSendSpacePassword.Text" xml:space="preserve">
+    <value>密碼：</value>
+  </data>
+  <data name="lblSendSpaceUsername.Text" xml:space="preserve">
+    <value>使用者名稱：</value>
+  </data>
+  <data name="lblSharedFolderFiles.Text" xml:space="preserve">
+    <value>檔案：</value>
+  </data>
+  <data name="lblSharedFolderImages.Text" xml:space="preserve">
+    <value>圖片：</value>
+  </data>
+  <data name="lblSharedFolderText.Text" xml:space="preserve">
+    <value>文字：</value>
+  </data>
+  <data name="lblTinyPicPassword.Text" xml:space="preserve">
+    <value>密碼：</value>
+  </data>
+  <data name="lblTinyPicUsername.Text" xml:space="preserve">
+    <value>電子信箱：</value>
+  </data>
+  <data name="lblUpasteUserKey.Text" xml:space="preserve">
+    <value>User Key：</value>
+  </data>
+  <data name="lblImgurThumbnailType.Text" xml:space="preserve">
+    <value>縮圖類型：</value>
+  </data>
+  <data name="lblCustomUploaderURLShortener.Text" xml:space="preserve">
+    <value>URL 縮址：</value>
+  </data>
+  <data name="lblDropboxPath.Text" xml:space="preserve">
+    <value>上傳路徑：</value>
+  </data>
+</root>
